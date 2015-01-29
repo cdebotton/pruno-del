@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/cdebotton/pruno-del/issues"
   },
-  "homepage": "https://github.com/cdebotton/pruno-del"
+  "homepage": "https://github.com/cdebotton/pruno-del",
+  "devDependencies": {
+    "del": "^1.1.1"
+  }
 }
