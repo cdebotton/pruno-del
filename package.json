@@ -1,0 +1,25 @@
+{
+  "name": "pruno-del",
+  "version": "1.0.0",
+  "description": "A pruno mix for deleting files and directories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdebotton/pruno-del.git"
+  },
+  "keywords": [
+    "pruno",
+    "del",
+    "delete",
+    "rm"
+  ],
+  "author": "Christian de Botton <debotton@brookylnunited.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdebotton/pruno-del/issues"
+  },
+  "homepage": "https://github.com/cdebotton/pruno-del"
+}
