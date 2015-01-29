@@ -7,6 +7,8 @@ function DelTask(params) {
   this.params = (params || {});
 };
 
+DelTask.displayName = 'DelTask';
+
 DelTask.getDefaults = function() {
   return {dirs: ['::dist']};
 };
