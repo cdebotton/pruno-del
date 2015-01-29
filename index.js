@@ -14,7 +14,8 @@ DelTask.getDefaults = function() {
 };
 
 DelTask.prototype.enqueue = function(gulp, params) {
+  pruno.notify(DelTask.displayName, 'Deleting', params.dirs.join(', '));
   return del(params.dirs);
 };
 
-module.exports = DelTask;
+module.exports = pruno.extend(DelTask);
