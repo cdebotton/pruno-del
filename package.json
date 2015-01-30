@@ -22,7 +22,7 @@
     "url": "https://github.com/cdebotton/pruno-del/issues"
   },
   "homepage": "https://github.com/cdebotton/pruno-del",
-  "devDependencies": {
+  "dependencies": {
     "del": "^1.1.1"
   }
 }
