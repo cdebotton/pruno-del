@@ -1,6 +1,6 @@
 {
   "name": "pruno-del",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A pruno mix for deleting files and directories.",
   "main": "index.js",
   "scripts": {
