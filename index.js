@@ -9,11 +9,18 @@ function DelTask(params) {
 DelTask.displayName = 'DelTask';
 
 DelTask.getDefaults = function() {
-  return {dirs: ['::dist']};
+  return {
+    dirs: ['::dist'],
+    watch: false
+  };
 };
 
-DelTask.prototype.enqueue = function(gulp, params) {
-  return del(params.dirs);
+DelTask.prototype.enqueue = function(gulp, params, callback) {
+  return del(params.dirs, callback);
 };
+
+DelTask.prototype.generateWatcher = function(gulp, params, callback) {
+  return params.watch ? true : false;
+}
 
 module.exports = DelTask;
