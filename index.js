@@ -16,7 +16,8 @@ DelTask.getDefaults = function() {
 };
 
 DelTask.prototype.enqueue = function(gulp, params, callback) {
-  return del(params.dirs, callback);
+  del.sync(params.dirs);
+  if (callback) callback();
 };
 
 DelTask.prototype.generateWatcher = function(gulp, params, callback) {
